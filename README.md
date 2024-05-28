@@ -50,5 +50,4 @@ The SVM model achieved moderate accuracy in differentiating individuals with ADH
 Contributions to this project are welcome! If you find any bugs, have suggestions for improvement, or want to contribute new features, please open an issue or submit a pull request.
 
 ## License
-This project is licensed under the [MIT License](LICENSE), which permits non-commercial use.
-
+This project is licensed under the [MIT License](LICENSE).
