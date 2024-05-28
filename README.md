@@ -35,13 +35,6 @@ The analysis pipeline involves several steps:
 ## Data
 The dataset used in this project is the ADHD-200 dataset, a publicly available collection of rs-fMRI data from individuals with ADHD and typically developing controls. The dataset includes preprocessed functional MRI scans and accompanying phenotypic information, such as age, gender, and diagnostic labels.
 
-## Analysis
-The analysis pipeline encompasses the following steps:
-1. **Data Preprocessing:** Perform motion correction, slice timing correction, spatial normalization, and other preprocessing steps to ensure data quality.
-2. **Feature Extraction:** Compute connectivity matrices or extract graph theory metrics from preprocessed rs-fMRI data to capture brain network properties.
-3. **Model Training:** Train an SVM classifier using the extracted connectivity features and accompanying diagnostic labels.
-4. **Model Evaluation:** Assess the performance of the SVM model using cross-validation or independent test sets. Evaluate metrics such as accuracy, sensitivity, specificity, and ROC-AUC.
-5. **Optimization:** Explore hyperparameter tuning, feature selection methods, and alternative machine learning algorithms (e.g., deep learning) to improve classification performance.
 
 ## Results
 The SVM model achieved moderate accuracy in differentiating individuals with ADHD from typically developing controls, demonstrating the potential of machine learning-based approaches for computational diagnosis. However, further research is needed to explore advanced algorithms and feature selection techniques to enhance classification performance and generalizability.
