@@ -41,11 +41,6 @@ The SVM model achieved moderate accuracy in differentiating individuals with ADH
 
 ## Code Explanation
 
-**Hypothesis**:
-This project investigates whether it is possible to predict Attention Deficit Hyperactivity Disorder (ADHD) from resting-state functional magnetic resonance imaging (fMRI) data. The underlying hypothesis is that there are patterns of brain connectivity that differ between individuals with ADHD and those without the disorder. It is proposed that by analyzing these connectivity patterns, especially in specific brain regions, a predictive model capable of distinguishing between individuals with and without ADHD can be developed.
-
-**Code Explanation**:
-
 1. **Import Libraries**: Necessary libraries for data analysis and machine learning modeling are imported.
 
 2. **Data Acquisition**: Data provided by the ADHD 2000 project is used, including resting-state fMRI images, phenotypic information (including ADHD diagnosis, ADHD symptom measures, age, sex, etc.), and confound files for data preprocessing.
@@ -68,4 +63,5 @@ This project investigates whether it is possible to predict Attention Deficit Hy
 ![image](https://github.com/lacomaofficial/ADHD-Prediction-rsfMRI/assets/132283879/2fe85395-a984-459a-b498-98d0ce4d5d3d)
 
 
-
+**Hypothesis**:
+This project investigates whether it is possible to predict Attention Deficit Hyperactivity Disorder (ADHD) from resting-state functional magnetic resonance imaging (fMRI) data. The underlying hypothesis is that there are patterns of brain connectivity that differ between individuals with ADHD and those without the disorder. It is proposed that by analyzing these connectivity patterns, especially in specific brain regions, a predictive model capable of distinguishing between individuals with and without ADHD can be developed.
