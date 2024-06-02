@@ -39,7 +39,33 @@ The dataset used in this project is the ADHD-200 dataset, a publicly available c
 ## Results
 The SVM model achieved moderate accuracy in differentiating individuals with ADHD from typically developing controls, demonstrating the potential of machine learning-based approaches for computational diagnosis. However, further research is needed to explore advanced algorithms and feature selection techniques to enhance classification performance and generalizability.
 
-## Contributing
-Contributions to this project are welcome! If you find any bugs, have suggestions for improvement, or want to contribute new features, please open an issue or submit a pull request.
+## Code Explanation
+
+**Hypothesis**:
+This project investigates whether it is possible to predict Attention Deficit Hyperactivity Disorder (ADHD) from resting-state functional magnetic resonance imaging (fMRI) data. The underlying hypothesis is that there are patterns of brain connectivity that differ between individuals with ADHD and those without the disorder. It is proposed that by analyzing these connectivity patterns, especially in specific brain regions, a predictive model capable of distinguishing between individuals with and without ADHD can be developed.
+
+**Code Explanation**:
+
+1. **Import Libraries**: Necessary libraries for data analysis and machine learning modeling are imported.
+
+2. **Data Acquisition**: Data provided by the ADHD 2000 project is used, including resting-state fMRI images, phenotypic information (including ADHD diagnosis, ADHD symptom measures, age, sex, etc.), and confound files for data preprocessing.
+
+3. **Explore Target Variable (Y)**: Phenotypic data is loaded into a DataFrame, and exploratory analysis is conducted to understand the distribution of the dependent variable, which in this case is the presence or absence of ADHD (0 = control, 1 = ADHD).
+
+4. **Load Brain Atlas**: A predefined brain atlas (ALL atlas) is loaded, dividing the brain into regions of interest (ROIs) for connectivity analysis.
+
+5. **Feature Extraction with Nilearn Masker**: The Nilearn masker is used to extract functional connectivity features from each subject's brain. This involves calculating a correlation matrix between the signals from brain ROIs. This provides a list of correlation matrices, one per subject, representing the functional connectivity features of fMRI.
+
+6. **Prepare Data for Machine Learning**: Data is split into training and testing sets, ensuring similar distributions of target classes (ADHD vs. control) in both sets.
+
+7. **Train the Model**: A Support Vector Machine (SVM) classification model is trained using hyperparameter search to find the best parameters.
+
+8. **Evaluate Model Performance**: The model is evaluated on the test set using evaluation metrics such as accuracy, recall, and F1-score. Additionally, the confusion matrix is visualized to better understand the model's performance.
+
+9. **Interpret Feature Importance**: Feature importance is analyzed using SVM model coefficients, and the most relevant brain connections for ADHD prediction are visualized.
+
+
+![image](https://github.com/lacomaofficial/ADHD-Prediction-rsfMRI/assets/132283879/2fe85395-a984-459a-b498-98d0ce4d5d3d)
+
 
 
