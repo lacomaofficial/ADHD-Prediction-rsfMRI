@@ -60,8 +60,6 @@ The SVM model achieved moderate accuracy in differentiating individuals with ADH
 9. **Interpret Feature Importance**: Feature importance is analyzed using SVM model coefficients, and the most relevant brain connections for ADHD prediction are visualized.
 
 
-![image](https://github.com/lacomaofficial/ADHD-Prediction-rsfMRI/assets/132283879/2fe85395-a984-459a-b498-98d0ce4d5d3d)
-
 
 **Hypothesis**:
 This project investigates whether it is possible to predict Attention Deficit Hyperactivity Disorder (ADHD) from resting-state functional magnetic resonance imaging (fMRI) data. The underlying hypothesis is that there are patterns of brain connectivity that differ between individuals with ADHD and those without the disorder. It is proposed that by analyzing these connectivity patterns, especially in specific brain regions, a predictive model capable of distinguishing between individuals with and without ADHD can be developed.
