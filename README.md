@@ -3,15 +3,6 @@
 ## Overview
 This repository contains code and resources for a neuroimaging analysis project focused on classifying Attention Deficit Hyperactivity Disorder (ADHD) using functional connectivity patterns derived from resting-state fMRI (rs-fMRI) data. The analysis employs machine learning techniques, specifically Support Vector Machines (SVMs), to differentiate individuals with ADHD from typically developing controls based on their brain connectivity profiles.
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Setup](#setup)
-3. [Usage](#usage)
-4. [Data](#data)
-5. [Analysis](#analysis)
-6. [Results](#results)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ## Introduction
 Attention Deficit Hyperactivity Disorder (ADHD) is one of the most common neurodevelopmental disorders, affecting millions of children and adolescents worldwide. Diagnosing ADHD is challenging due to its multifaceted nature, which includes symptoms such as inattention, hyperactivity, and impulsivity. Traditional diagnostic methods rely on subjective assessments and behavioral observations, leading to variability in diagnosis accuracy.
